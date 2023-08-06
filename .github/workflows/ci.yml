@@ -30,4 +30,4 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64
-          tags: caddy-cloudflare:latest
+          tags: olivercullimore/caddy-cloudflare:latest
