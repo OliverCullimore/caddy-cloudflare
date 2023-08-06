@@ -6,5 +6,3 @@ RUN xcaddy build \
 FROM caddy
 
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
-
-FROM caddy:<version>-builder AS builder
